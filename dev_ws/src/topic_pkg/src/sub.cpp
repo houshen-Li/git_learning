@@ -12,5 +12,6 @@ int main(int argc,char**argv){
     ros::NodeHandle n;
     ros::Subscriber sub_=n.subscribe<topic_pkg::Person>("person_info",10,callback);
     ros::spin();
+    //test
     return 0;
 }
