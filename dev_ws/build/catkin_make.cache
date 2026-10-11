@@ -1,0 +1,2 @@
+topic_pkg
+-DCATKIN_DEVEL_PREFIX=/root/ros_learning/topic_customize/dev_ws/devel -DCMAKE_INSTALL_PREFIX=/root/ros_learning/topic_customize/dev_ws/install -G Unix Makefiles
